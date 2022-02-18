@@ -1,7 +1,7 @@
 <!--extends c'est pour que cette page hérite des propriétés de yields('app')-->
 @extends('app')
 
-@section('title', 'A propos | Hello city App')
+@section('title', 'A propos | ' . config('app.name'))
 
 
 {{-- Cette section permet de définir le contenu de @yields('content') avec ce qui est contenu entre ses balises --}}

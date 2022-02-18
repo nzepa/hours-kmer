@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>@yield('title', 'Contenu par défaut')</title>
+    <title>@yield('title', config('app.name'))</title>
     <!-- Styles -->
 </head>
 
@@ -19,7 +19,5 @@
         <p>&copy; Copyright {{date("Y")}} &middot; <a href="/about-us">A propos</a></p>
     </footer>
 </body>
-
-
 
 </html>
