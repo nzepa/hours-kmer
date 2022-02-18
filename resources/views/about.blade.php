@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Hello city</title>
+    <title>A propos | Hello City</title>
 
     <!-- Fonts -->
     <!-- <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet"> -->
@@ -15,9 +15,11 @@
 </head>
 
 <body>
-    <h1>Hello from Cameroun !</h1>
 
-    <p class="description">Il est {{date("h:i A")}} actuellement au Cameroun</p>
+    <p>Réalisé avec le &hearts; par ZPA.</p>
+
+    <p><a href="/">Revenir a l'accueil</a></p>
+
 </body>
 
 <footer>
