@@ -1,6 +1,6 @@
 
 <!--extends c'est pour que cette page hérite des propriétés de yields('app')-->
-@extends('app')
+@extends('layouts/app', ['pageTitle' => "Hello City"])
 
 {{-- Cette section ira récupérer le contenu de yields('title') permettant de définir le titre de la page --}}
 @section('title', 'Hello City App')

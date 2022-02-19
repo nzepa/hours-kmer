@@ -1,5 +1,5 @@
 <!--extends c'est pour que cette page hérite des propriétés de yields('app')-->
-@extends('app')
+@extends('layouts/app', ['pageTitle' => "A propos | Hello City"])
 
 @section('title', 'A propos | ' . config('app.name'))
 
