@@ -3,7 +3,7 @@
 
 @section('title', 'A propos | ' . config('app.name'))
 
-<img style="border-radius: 50%;" src="/img/portrait.png" alt="Profil de ZPA">
+<img style="border-radius: 50%;" src="{{ asset('/img/portrait.png') }}" alt="Profil de ZPA">
 
 {{-- Cette section permet de définir le contenu de @yields('content') avec ce qui est contenu entre ses balises --}}
 @section('content')
